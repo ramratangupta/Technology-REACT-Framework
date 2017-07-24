@@ -1,6 +1,6 @@
-#Technology : REACT Framework
+# Technology : REACT Framework
 
-##Introduction to React.Js
+## Introduction to React.Js
 
 1.	What is React.js?
 
@@ -16,7 +16,7 @@
 
 7.	Is switching to React easy?
 
-##Prerequisites
+## Prerequisites
 
 1.	Opps JavaScript
 
@@ -51,7 +51,7 @@ i.	Classes in ES6
 j.	Modules in ES6
 
 
-##React Fundamentals
+## React Fundamentals
 
 1.	Environment Setup
 
