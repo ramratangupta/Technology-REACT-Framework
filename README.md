@@ -2,7 +2,10 @@
 
 ## Introduction to React.Js
 
-1.	What is React.js?
+### 1.	What is React.js?
+
+React.js is frontend JavaScript framework developed by Facebook to build UX to have single page application, it is the view* in MVC framework. It allows us to create reusable components.
+
 
 2.	Why was React developed?
 
