@@ -32,7 +32,7 @@ Compnies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses Re
 
 * No need of direct manipulation of DOM.
 
-5.	React: the bad
+### 5.	React: the bad
 
 * Initial learning curve is very high espislay when user is good in jQuery.
 
