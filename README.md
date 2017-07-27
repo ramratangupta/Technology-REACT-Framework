@@ -4,7 +4,7 @@
 
 ### 1.	What is React.js?
 
-React.js is open source frontend JavaScript framework developed by Facebook to build UX to have single page application, it is the view* in MVC framework. It allows us to create reusable components.
+React.js is open source front end JavaScript framework developed by Facebook to build UX to have single page application, it is the view* in MVC framework. It allows us to create reusable components.
 
 
 ### 2.	Why was React developed?
@@ -14,7 +14,7 @@ To create best user experience for the user using concept of single page applica
 
 ### 3.	Who uses React?
 
-Compnies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses React.
+Companies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses React.
 
 ### 4.	React: the good
 
@@ -22,7 +22,7 @@ Compnies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses Re
 
 * Create best user experience via SPA.
 
-* Create re usable component i.e development is moduler.
+* Create re usable component i.e development is modular.
 
 * Think the development in term of OOPS.
 
@@ -34,7 +34,7 @@ Compnies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses Re
 
 ### 5.	React: the bad
 
-* Initial learning curve is very high espislay when user is good in jQuery.
+* Initial learning curve is very high especially when user is good in jQuery.
 
  * As we think dom manipulation in terms of jQuery but now we need to think of state manipulation and as a result dom will be updated.
 
@@ -45,7 +45,7 @@ Compnies like Dropbox, Netflix, Salesforce, IBM, AT&T, Netflix, WhatsApp uses Re
 
 ### 6.	Why should I use React?
 
-* To create codebase maintainable in long term as it usages re usable component
+* To create code base maintainable in long term as it usages re usable component
 
 * To create single page application
 
@@ -59,10 +59,37 @@ Initial learning curve is high but need to think properly while switching to rea
 ## Prerequisites
 
 ### 1.	Opps JavaScript
+
 Lean more at https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
 
+#### a.	Defining an object template
 
-a.	Defining an object template
+In some OOP languages, this generic object type definition is called a *class*
+(JavaScript uses a different mechanism and terminology)
+
+When an object instance is created from a class, the class's constructor function is run to create it.
+This process of creating an object instance from a class is called instantiation — the object instance is *instantiated* from the class.
+
+The ability of multiple object types to implement the same functionality is *polymorphism*. Person -> Student, Teacher
+```
+//Create an Object template with name as property and greeting as method
+function Person(name) {
+  var obj = {};
+  obj.name = name;
+  obj.greeting = function() {
+    alert('Hi! I\'m ' + this.name + '.');
+  };
+  return obj;
+}
+
+// Called class constructor / instantiated class 
+var ram = Person('Ram');
+ram.name; // will print Ram
+ram.greeting(); // Will print : Hi! I'm Ram.
+
+```
+
+> A constructor function name usually starts with a capital letter — this convention is used to make constructor functions easier to recognize in code.
 
 b.	Object prototypes
 
